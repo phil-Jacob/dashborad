@@ -10,31 +10,31 @@ function Sidebar() {
         </div>
         <hr className='text-dark'></hr>
         <div className='list-group list-group-flush'>
-            <a className='list-group-item py-2'>
+            <a href='#' className='list-group-item py-2'>
                 <i className='bi bi-grid-fill fs-5 me-2'></i>
                 <span >Dashboard</span>
             </a>
-            <a className='list-group-item py-2'>
+            <a href='#' className='list-group-item py-2'>
                 <i className='bi bi-clipboard-check fs-5 me-3'></i>
                 <span >LabTest</span>
             </a>
-            <a className='list-group-item py-2'>
+            <a href='#' className='list-group-item py-2'>
                 <i className='bi bi-calendar2-check fs-5 me-3'></i>
                 <span >Appointment</span>
             </a>
-            <a className='list-group-item py-2'>
+            <a href='#' className='list-group-item py-2'>
                 <i className='bi bi-bag-check fs-5 me-3'></i>
                 <span >Medical Order</span>
             </a>
-            <a className='list-group-item py-2'>
+            <a href='#' className='list-group-item py-2'>
                 <i className='bi bi-envelope-check fs-5 me-3'></i>
                 <span >Message</span>
             </a>
-            <a className='list-group-item py-2'>
+            <a href='#' className='list-group-item py-2'>
                 <i className='bi bi-wallet2 fs-5 me-3'></i>
                 <span >Payment</span>
             </a>
-            <a className='list-group-item py-2'>
+            <a href='#' className='list-group-item py-2'>
                 <i className='bi bi-gear fs-5 me-3'></i>
                 <span >Settings</span>
             </a>
