@@ -7,13 +7,13 @@ function Home({Toggle}) {
     <div className='px-3'>
         <Nav Toggle={Toggle}/>
         <div className='container-fluid'>
-        <div class="cat"><h3 className='text-white'>Sales Information</h3></div>
+        <div className="cat"><h3 className='text-white'>Sales Information</h3></div>
            <div className='row g-3 my-2'>
              <div className='col-md-3 p-1'>
                 <div className='p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded'>
                     <div>
                         <h3>Customer</h3>
-                        <input placeholder='Enter Customer Name'></input>
+                        <input className='inputField' placeholder='Enter Customer Name'></input>
                     </div>
                 </div>
               </div>
@@ -21,7 +21,7 @@ function Home({Toggle}) {
                 <div className='p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded'>
                     <div>
                         <h3>Invoice Id</h3>
-                        <input placeholder='Enter Invoice Id'></input>
+                        <input className='inputField' placeholder='Enter Invoice Id'></input>
                     </div>
                 </div>
               </div>
@@ -29,7 +29,7 @@ function Home({Toggle}) {
                 <div className='p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded'>
                     <div>
                         <h3>Start Date</h3>
-                        <input placeholder='Start Date'></input>
+                        <input className='inputField'  placeholder='Start Date'></input>
                     </div>
                 </div>
                 </div>
@@ -37,14 +37,14 @@ function Home({Toggle}) {
                 <div className='p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded'>
                     <div>
                         <h3>End Date</h3>
-                        <input placeholder='End Date'></input>
+                        <input className='inputField' placeholder='End Date'></input>
                     </div>
                 </div>
               </div>
             </div>
         </div>
 
-        <table class="table">
+        <table className="table">
   <thead>
     <tr>
       <th scope="col">#</th>

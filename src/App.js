@@ -14,7 +14,7 @@ function App() {
        {toggle && <div className='col-4 col-md-2 bg-white min-vh-100'>
          <Sidebar/>
         </div>}
-        {toggle && <div className='col-4 col-md-2'></div>}
+        {toggle }
         <div className='col '>
           <Home Toggle={Toggle}/>
         </div>
