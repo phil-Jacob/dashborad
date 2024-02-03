@@ -9,6 +9,9 @@
     flex-direction: column;
 }
 
+.row{
+    overflow-x: hidden;
+}
 .cat{
     width: 100%;
     height: 20px;
