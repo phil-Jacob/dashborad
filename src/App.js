@@ -10,7 +10,7 @@ function App() {
   }
   return (
     <div className='container-fluid bg-secondary min-vh-100'>
-      <div className='row'>
+      <div className='row' style="overflow-x: hidden;">
        {toggle && <div className='col-4 col-md-2 bg-white min-vh-100'>
          <Sidebar/>
         </div>}
